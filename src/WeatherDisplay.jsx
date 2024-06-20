@@ -6,7 +6,7 @@ const WeatherDisplay = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [selectedCity, setSelectedCity] = useState("Hyderabad");
-  const apiKey = "61a1d8419f9d307924240958d89e284d";
+  const apiKey = "your_api_key";
 
   useEffect(() => {
     const fetchWeatherData = async () => {
